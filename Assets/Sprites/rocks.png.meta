@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: b7dbccba570ae434781e14357aae28da
+guid: b30c62d40b34a7841a37f438144cb5f5
 TextureImporter:
   fileIDToRecycleName:
-    21300000: trees_0
-    21300002: trees_1
-    21300004: trees_2
-    21300006: trees_3
-    21300008: trees_4
-    21300010: trees_5
-    21300012: trees_6
-    21300014: trees_7
-    21300016: trees_8
+    21300000: rocks_0
+    21300002: rocks_1
+    21300004: rocks_2
+    21300006: rocks_3
+    21300008: rocks_4
+    21300010: rocks_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,28 +87,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -137,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trees_0
+      name: rocks_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 0
-        width: 18
-        height: 29
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,19 +126,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a507b69bfd1d646b213921151d52ef
+      spriteID: 256bcfad93979f84d8dcdaee955f6b21
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_1
+      name: rocks_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 16
         y: 0
-        width: 43
-        height: 47
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,19 +146,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2fdb07342213b74fb1071d14db964cb
+      spriteID: b89f5559dca97064daf313c458f047dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_2
+      name: rocks_2
       rect:
         serializedVersion: 2
-        x: 82
+        x: 32
         y: 0
-        width: 43
-        height: 47
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,19 +166,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0451c5797452ce479ad9e7a17a01c57
+      spriteID: f6c601c682ffc154f8b97f8841b5a15e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_3
+      name: rocks_3
       rect:
         serializedVersion: 2
-        x: 138
+        x: 48
         y: 0
-        width: 34
-        height: 47
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,19 +186,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85ad93d681184e248850bf72b8785570
+      spriteID: 42b90231bf18d6846bf40aa071a9fe5a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_4
+      name: rocks_4
       rect:
         serializedVersion: 2
-        x: 186
+        x: 64
         y: 0
-        width: 34
-        height: 47
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,19 +206,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3368df8d0189d4d4aa7ea35b37ac68d2
+      spriteID: df6bb91410a3bb342a260bf539ae94a7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trees_5
+      name: rocks_5
       rect:
         serializedVersion: 2
-        x: 229
+        x: 80
         y: 0
-        width: 51
-        height: 62
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,67 +226,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d3a5c08ad7f86647a006b412d72f279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trees_6
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 0
-        width: 51
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a0496f303d57e44f88cef148fef9b3f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trees_7
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 1
-        width: 46
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5a72990a990d0a488a9c9cc92d1001d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trees_8
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 1
-        width: 46
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b5f52aafd5542744bd86fd4a347a50e
+      spriteID: 482a45ecdb514e64987c51c411f58fda
       vertices: []
       indices: 
       edges: []
@@ -319,7 +234,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3b90949e2d4a74446b117db25d270071
     vertices: []
     indices: 
     edges: []

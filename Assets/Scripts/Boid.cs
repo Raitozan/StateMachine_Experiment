@@ -25,7 +25,6 @@ public class Boid : MonoBehaviour
 	{
 		rb = gameObject.GetComponent<Rigidbody2D> ();
 		Vector2 startDir = new Vector2 (Random.Range (-1.0f, 1.0f), Random.Range (-1.0f, 1.0f));
-		startDir = startDir.normalized * minSpeed;
 		rb.AddForce (startDir);
 		rb.velocity = rb.velocity.normalized * minSpeed;
 	}
@@ -36,7 +35,7 @@ public class Boid : MonoBehaviour
 		Cohesion ();
 		Alignment ();
 		Separate ();
-		Seek ();
+		//Seek ();
 
 		transform.up = rb.velocity;
 
@@ -44,6 +43,8 @@ public class Boid : MonoBehaviour
 			rb.velocity = rb.velocity.normalized * maxSpeed;
 		else if (rb.velocity.magnitude < minSpeed)
 			rb.velocity = rb.velocity.normalized * minSpeed;
+
+		Debug.Log(rb.velocity.magnitude);
 	}
 
 	void Cohesion()
@@ -55,7 +56,7 @@ public class Boid : MonoBehaviour
 			globalPos += b.transform.position;
 			count++;
 		}
-		if (count >= 0)
+		if (count > 0)
 		{
 			globalPos /= count;
 		
@@ -82,7 +83,7 @@ public class Boid : MonoBehaviour
 				count++;
 			}
 		}
-		if (count >= 0)
+		if (count > 0)
 		{
 			globalVel /= count;
 
@@ -108,7 +109,7 @@ public class Boid : MonoBehaviour
 			globalSep += sepDir;
 			count++;
 		}
-		if (count >= 0)
+		if (count > 0)
 		{
 			globalSep /= count;
 

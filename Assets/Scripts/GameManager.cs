@@ -27,7 +27,8 @@ public class GameManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-
+		if (Input.GetKey(KeyCode.Mouse0))
+			create();
 	}
 
 	public List<Boid> getNeighbours(Boid boid)
@@ -54,5 +55,10 @@ public class GameManager : MonoBehaviour
 				toclose.Add (b);
 		}
 		return toclose;
+	}
+
+	private void create()
+	{
+		boids.Add(Instantiate(boidPrefab, this.transform));
 	}
 }

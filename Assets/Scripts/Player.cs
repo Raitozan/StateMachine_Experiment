@@ -22,19 +22,23 @@ public class Player : MonoBehaviour
 
 	public void move()
 	{
-		int x = 0, y = 0;
-		if(Input.GetKey(KeyCode.LeftArrow))
-			x = -1;
-		if (Input.GetKey(KeyCode.RightArrow))
-			x = 1;
-		if(Input.GetKey(KeyCode.UpArrow))
-			y = 1;
-		if (Input.GetKey(KeyCode.DownArrow))
-			y = -1;
+		float x = Input.GetAxis("Horizontal");
+		float y = Input.GetAxis("Vertical");
 
 		direction = new Vector3 (x, y, 0.0f);
 		direction = direction.normalized * speed;
 
-		transform.position += direction * Time.deltaTime;
+		//transform.position += direction * Time.deltaTime;
+
+		GetComponent<Rigidbody2D>().MovePosition(transform.position + direction * Time.deltaTime);
+
+		float dx = Input.GetAxis("RightStickHorizontal");
+		float dy = Input.GetAxis("RightStickVertical");
+
+		Vector3 targetDirection = new Vector3(dx, dy, 0.0f);
+		targetDirection = targetDirection.normalized;
+
+		if(targetDirection != Vector3.zero)
+			transform.up = targetDirection;
 	}
 }
