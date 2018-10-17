@@ -155,7 +155,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.5179572, g: 0.16089962, b: 0.7058823, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -279,11 +279,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.size
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 4492428050498550, guid: e4362ca1b5d6a5c4897f204c37466e38, type: 2}
       propertyPath: m_LocalPosition.x
       value: -35
@@ -315,105 +310,6 @@ Prefab:
     - target: {fileID: 4492428050498550, guid: e4362ca1b5d6a5c4897f204c37466e38, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: rockProb
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300002, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[2]
-      value: 
-      objectReference: {fileID: 21300004, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[3]
-      value: 
-      objectReference: {fileID: 21300006, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[4]
-      value: 
-      objectReference: {fileID: 21300008, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[5]
-      value: 
-      objectReference: {fileID: 21300010, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[6]
-      value: 
-      objectReference: {fileID: 21300012, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[7]
-      value: 
-      objectReference: {fileID: 21300014, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[8]
-      value: 
-      objectReference: {fileID: 21300016, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[9]
-      value: 
-      objectReference: {fileID: 21300018, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[10]
-      value: 
-      objectReference: {fileID: 21300020, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[11]
-      value: 
-      objectReference: {fileID: 21300022, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[12]
-      value: 
-      objectReference: {fileID: 21300024, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: terrainSprites.Array.data[13]
-      value: 
-      objectReference: {fileID: 21300026, guid: 55944027166d3fa4cb2cc63e654a4a08,
-        type: 3}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: width
-      value: 70
-      objectReference: {fileID: 0}
-    - target: {fileID: 114047351750879726, guid: e4362ca1b5d6a5c4897f204c37466e38,
-        type: 2}
-      propertyPath: height
-      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4362ca1b5d6a5c4897f204c37466e38, type: 2}
