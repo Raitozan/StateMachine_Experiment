@@ -13,7 +13,8 @@ public class TileGrid : MonoBehaviour
 	public List<Sprite> terrainSprites;
 	public float rockProb;
 	public List<Sprite> rockSprites;
-	public List<GameObject> treesPrefabs;
+	public float treeProb;
+	public List<GameObject> treePrefabs;
 
 	// Use this for initialization
 	void Start ()
@@ -52,6 +53,20 @@ public class TileGrid : MonoBehaviour
 						{
 							t.sr.sprite = terrainSprites[i];
 							break;
+						}
+					}
+					type = Random.Range(0.0f, 1.0f);
+					if(type <= treeProb)
+					{
+						step = 1.0f / treePrefabs.Count;
+						for (int i = 0; i < treePrefabs.Count; i++)
+						{
+							type = Random.Range(0.0f, 1.0f);
+							if (type <= step * i)
+							{
+								Instantiate(treePrefabs[i], new Vector3(x-width/2, y-height/2, 0.0f), Quaternion.identity, this.transform);
+								break;
+							}
 						}
 					}
 					grid[x, y] = t;

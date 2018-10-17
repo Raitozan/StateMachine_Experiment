@@ -73,7 +73,8 @@ MonoBehaviour:
   - {fileID: 21300006, guid: b30c62d40b34a7841a37f438144cb5f5, type: 3}
   - {fileID: 21300008, guid: b30c62d40b34a7841a37f438144cb5f5, type: 3}
   - {fileID: 21300010, guid: b30c62d40b34a7841a37f438144cb5f5, type: 3}
-  treesPrefabs:
+  treeProb: 0.1
+  treePrefabs:
   - {fileID: 1560913927105796, guid: d8abcbf553c7c4e4d942db76cbd42144, type: 2}
   - {fileID: 1062877286215898, guid: 42995e1197e6af442a04b2698ed3001c, type: 2}
   - {fileID: 1242238374190542, guid: d6593fc0525677f4085acb06bd6f4d08, type: 2}
